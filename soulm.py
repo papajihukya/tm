@@ -139,7 +139,7 @@ async def attack(update: Update, context: CallbackContext):
 
     # Check if the user is allowed to use the bot
     if not await is_user_allowed(user_id):
-        await context.bot.send_message(chat_id=chat_id, text="*𝗖𝗛𝗟 𝗕𝗢𝗢𝗦𝗗𝗜𝗞𝗘 😂 𝗙𝗜𝗥𝗦𝗧 𝗨𝗦𝗘 𝗖𝗢𝗡𝗗𝗢𝗠:-  𝗕𝗨𝗬 @TRUSTVIP_MOD0')
+        await context.bot.send_message(chat_id=chat_id, text="*𝗖𝗛𝗟 𝗕𝗢𝗢𝗦𝗗𝗜𝗞𝗘 🌏 𝗙𝗜𝗥𝗦𝗧 𝗨𝗦𝗘 𝗖𝗢𝗡𝗗𝗢𝗠  𝗕𝗨𝗬 @TRUSTVIP_MOD0*", parse_mode='Markdown')
         return
 
     args = context.args
